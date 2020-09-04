@@ -1,8 +1,19 @@
-.class{
-    display: flex;
-    flex-wrap: wrap;
-    
+.images{
+    /* width: 450px;
+    height:300px;*/
+     display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
+ img{
+     width: 450px;
+     height: 300px;
+     margin:10px;
+     transition:all 1.5s;
+ }
+ img:hover{
+     transform:scale(1.1)
+ }
 .container{
-    background-color:#ff0f
+    background-color:rgb(167, 170, 173)
 }
