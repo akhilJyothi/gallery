@@ -1,19 +1,18 @@
- .images{
-     /* width: 450px;
-    height:300px; */
+.images{
+    /* width: 450px;
+    height:300px;*/
      display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
+    justify-content: space-around;
+    background-color:#888888
 }
  img{
      width: 450px;
      height: 300px;
      margin:10px;
-     transition:all 1.1s;
+     transition:all 1s;
  }
  img:hover{
      transform:scale(1.1)
  }
-.container{
-    background-color:rgb(167, 170, 173)
-}  
